@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tecnofix</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f4f6f9;
+    color:#333;
+}
+
+/* ENCABEZADO */
+
+header{
+    background:#0d6efd;
+    color:white;
+    text-align:center;
+    padding:40px 20px;
+}
+
+.logo{
+    width:220px;
+    margin-bottom:15px;
+}
+
+header h1{
+    font-size:48px;
+    margin-bottom:10px;
+}
+
+header p{
+    font-size:20px;
+}
+
+/* BOTÓN */
+
+.boton{
+    display:inline-block;
+    margin-top:20px;
+    padding:12px 25px;
+    background:white;
+    color:#0d6efd;
+    text-decoration:none;
+    border-radius:8px;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+.boton:hover{
+    background:#dbe8ff;
+}
+
+/* MENÚ */
+
+nav{
+    background:#084298;
+    padding:15px;
+    text-align:center;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 15px;
+    font-weight:bold;
+}
+
+/* SECCIONES */
+
+section{
+    max-width:1000px;
+    margin:auto;
+    padding:50px 20px;
+}
+
+h2{
+    color:#0d6efd;
+    margin-bottom:20px;
+}
+
+/* TARJETAS */
+
+.servicios{
+    display:grid;
+    grid-template-columns:repeat(auto-fit, minmax(250px,1fr));
+    gap:20px;
+}
+
+.card{
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+
+.card h3{
+    margin-bottom:15px;
+    color:#084298;
+}
+
+ul{
+    margin-left:20px;
+}
+
+/* HORARIOS */
+
+.horarios{
+    background:#e9f2ff;
+    padding:25px;
+    border-radius:10px;
+}
+
+/* REDES */
+
+.redes{
+    margin-top:25px;
+}
+
+.redes a{
+    display:inline-block;
+    margin:8px;
+    padding:12px 20px;
+    background:#0d6efd;
+    color:white;
+    text-decoration:none;
+    border-radius:8px;
+    transition:0.3s;
+}
+
+.redes a:hover{
+    background:#084298;
+}
+
+/* FOOTER */
+
+footer{
+    background:#084298;
+    color:white;
+    text-align:center;
+    padding:25px;
+    margin-top:40px;
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- ENCABEZADO -->
+
+<header>
+    <img src="./logoadrian.jpg" alt="Logo tecnofix46" class="logo">
+    <h1>Tecnofix</h1>
+    <p class="subtitle">Soluciones tecnológicas y mantenimiento profesional</p>
+</header>
+    <p>
+        Conectamos tu mundo con soluciones tecnológicas eficientes.
+    </p>
+
+    <a href="#contacto" class="boton">
+        Solicitar Servicio
+    </a>
+
+</header>
+
+<!-- MENÚ -->
+
+<nav>
+
+    <a href="#nosotros">Nosotros</a>
+    <a href="#servicios">Servicios</a>
+    <a href="#horarios">Horarios</a>
+    <a href="#contacto">Contacto</a>
+
+</nav>
+
+<!-- NOSOTROS -->
+
+<section id="nosotros">
+
+    <h2>👨‍💻 ¿Quiénes somos?</h2>
+
+    <p>
+        En Tecnofix somos un equipo dedicado a brindar servicios
+        en sistemas teleinformáticos, con el objetivo de garantizar
+        el correcto funcionamiento de tus equipos y redes.
+    </p>
+
+    <br>
+
+    <p>
+        Trabajamos con responsabilidad, compromiso y enfoque
+        en la satisfacción del cliente.
+    </p>
+
+</section>
+
+<!-- SERVICIOS -->
+
+<section id="servicios">
+
+    <h2>🔧 Nuestros Servicios</h2>
+
+    <div class="servicios">
+
+        <div class="card">
+
+            <h3>🖥️ Mantenimiento de Computadores</h3>
+
+            <ul>
+                <li>Limpieza interna y externa</li>
+                <li>Optimización del sistema operativo</li>
+                <li>Eliminación de virus y software malicioso</li>
+                <li>Actualización de programas</li>
+            </ul>
+
+        </div>
+
+        <div class="card">
+
+            <h3>🛠️ Soporte Técnico</h3>
+
+            <ul>
+                <li>Atención presencial y remota</li>
+                <li>Solución de fallas de hardware y software</li>
+                <li>Instalación de programas</li>
+                <li>Asesoría tecnológica personalizada</li>
+            </ul>
+
+        </div>
+
+        <div class="card">
+
+            <h3>🔐 Seguridad Informática</h3>
+
+            <ul>
+                <li>Instalación de antivirus y firewall</li>
+                <li>Protección de datos</li>
+                <li>Prevención de ataques informáticos</li>
+                <li>Configuración de redes seguras</li>
+            </ul>
+
+        </div>
+
+        <div class="card">
+
+            <h3>🌐 Instalación y Configuración de Redes</h3>
+
+            <ul>
+                <li>Instalación de redes WiFi y cableadas</li>
+                <li>Configuración de routers y switches</li>
+                <li>Cableado estructurado</li>
+                <li>Optimización de conexión a internet</li>
+            </ul>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- CLIENTES -->
+
+<section>
+
+    <h2>🎯 ¿A quién ayudamos?</h2>
+
+    <ul>
+        <li>🏢 Empresas y negocios</li>
+        <li>🏠 Hogares</li>
+        <li>🎓 Estudiantes</li>
+        <li>💼 Emprendedores</li>
+    </ul>
+
+</section>
+
+<!-- HORARIOS -->
+
+<section id="horarios">
+
+    <h2>⏰ Horarios de Atención</h2>
+
+    <div class="horarios">
+
+        <p>
+            <strong>Lunes a Viernes:</strong>
+            8:00 AM – 6:00 PM
+        </p>
+
+        <br>
+
+        <p>
+            <strong>Sábados:</strong>
+            9:00 AM – 2:00 PM
+        </p>
+
+        <br>
+
+        <p>
+            <strong>Domingos y Festivos:</strong>
+            Cerrado
+        </p>
+
+    </div>
+
+</section>
+
+<!-- CONTACTO -->
+
+<section id="contacto">
+
+    <h2>📞 Contacto</h2>
+
+    <p>📱 WhatsApp: +57 3244273617</p>
+
+    <br>
+
+    <p>📧 Correo: tecnofix46@email.com</p>
+
+    <br>
+
+    <p>📍 Barranquilla, Colombia</p>
+
+    <!-- REDES SOCIALES -->
+
+    <div class="redes">
+
+        <h3>Síguenos en Redes Sociales</h3>
+
+        <a href="https://www.facebook.com/share/17JBYNFtPP/" target="_blank">
+            Facebook
+        </a>
+
+        <a href="https://www.instagram.com/tecno_fix46?igsh=bHA5bHZsaWJ3Zmo=" target="_blank">
+            Instagram
+        </a>
+
+        <a href="https://tiktok.com/@tecnofix52" target="_blank">
+            TikTok
+        </a>
+
+        <a href="https://chat.whatsapp.com/KOmyptiCaUECs9bEj229HF" target="_blank">
+            WhatsApp
+        </a>
+        
+        <a href="https://www.youtube.com/@Tecnofix-j8m" target="_blank">
+            Youtube
+        </a>
+    </div>
+
+</section>
+
+<!-- PIE DE PÁGINA -->
+
+<footer>
+
+    <p>
+        Tecnofix — Conectamos tu mundo con soluciones tecnológicas eficientes. 🚀💻
+    </p>
+
+</footer>
+
+</body>
+</html>
